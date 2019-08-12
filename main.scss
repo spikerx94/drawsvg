@@ -3,7 +3,7 @@ body {
   }
   
   img {
-    max-width: 50%;
+    max-width: 155px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -14,14 +14,14 @@ body {
     opacity: 0;
     animation-name: show;
     animation-delay: 2s;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: linear;
   }
   
   svg {
-    max-width: 50%;
+    max-width: 155px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -35,7 +35,7 @@ body {
       stroke-width: 1;
       stroke-dasharray: 1000;
       stroke-dashoffset: 1000;
-      animation: draw 4s linear forwards;
+      animation: draw 3s linear forwards;
     }
   }
   
