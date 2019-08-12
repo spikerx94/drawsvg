@@ -3,7 +3,7 @@ body {
   }
   
   img {
-    max-width: 80%;
+    max-width: 500px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -13,15 +13,15 @@ body {
     margin: auto;
     opacity: 0;
     animation-name: show;
-    animation-delay: 6s;
-    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: linear;
   }
   
   svg {
-    max-width: 80%;
+    max-width: 500px;
     width: 100%;
     position: absolute;
     top: 0;
@@ -30,31 +30,12 @@ body {
     bottom: 0;
     margin: auto;
     path {
-      stroke-width: 2;
-      animation-fill-mode: forwards;
-      animation-iteration-count: 1;
-      animation-name: draw;
-      animation-timing-function: linear;
-      &#case {
-        stroke: #666;
-        stroke-dasharray: 2810;
-        stroke-dashoffset: 2810;
-        animation-duration: 3s;
-      }
-      &#cooler {
-        stroke: #ddd;
-        stroke-dasharray: 300;
-        stroke-dashoffset: 300;
-        animation-duration: 2s;
-        animation-delay: 4s;
-      }
-      &#structure {
-        stroke: #999;
-        stroke-dasharray: 680;
-        stroke-dashoffset: 680;
-        animation-duration: 3s;
-        animation-delay: 2s;
-      }
+      fill-opacity: 0;
+      stroke: #444444;
+      stroke-width: 1;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: draw 4s linear forwards;
     }
   }
   
@@ -63,7 +44,6 @@ body {
       stroke-dashoffset: 0;
     }
   }
-  
   @keyframes show {
     to {
       opacity: 1;
