@@ -3,7 +3,7 @@ body {
 }
 
 img {
-  max-width: 500px;
+  max-width: 50%;
   width: 100%;
   position: absolute;
   top: 0;
@@ -21,7 +21,7 @@ img {
 }
 
 svg {
-  max-width: 500px;
+  max-width: 50%;
   width: 100%;
   position: absolute;
   top: 0;
