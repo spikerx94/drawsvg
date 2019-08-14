@@ -1,10 +1,10 @@
 body {
-    background-color: #fff;
+    background-color: #101721;
   }
   
   img {
-    max-width: 155px;
-    width: 100%;
+    max-width: 700px;
+    width: 80%;
     position: absolute;
     top: 0;
     left: 0;
@@ -18,20 +18,22 @@ body {
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     animation-timing-function: linear;
+    padding: 15px;
   }
   
   svg {
-    max-width: 155px;
-    width: 100%;
+    max-width: 700px;
+    width: 80%;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
+    padding: 15px;
     path {
       fill-opacity: 0;
-      stroke: #444444;
+      stroke: #fff;
       stroke-width: 1;
       stroke-dasharray: 1000;
       stroke-dashoffset: 1000;
